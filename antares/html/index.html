@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<style>
+
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(100, 99, 99);
+}
+
+li{
+    float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0%;
+
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: rgb(100, 99, 99);
+}
+
+.content{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-text{
+    margin-left: 25px;
+}
+
+</style>
+
+<body>
+
+    <div class="header">
+
+    <li><a href="index.html">Home</a></li>
+    <li><a href="biodata.html">Biodata</a></li>
+    <li style="float:right"><a class="active" href="https://www.instagram.com/antareswilar_/">Contact</a></li>
+
+    </div>
+    
+
+    <div class="content">
+
+        <div class="content-gambar">
+            <img src="../assets/antares.jpeg" alt="" width="300px" height="400px">
+        </div>
+
+        <div class="content-text">
+            <h1>Antares Mario Alexandro Wilar</h1>
+            <h3>Mahasiswa jurusan Sistem Informasi</h3>
+            <div>Berikut adalah akun media sosial dimana kalian bisa menemukan saya</div>
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

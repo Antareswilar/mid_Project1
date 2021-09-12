@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+</head>
+
+<style>
+
+body{
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: rgb(100, 99, 99);
+}
+
+li{
+    float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 0%;
+
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: rgb(100, 99, 99);
+}
+
+.content-isi{
+    font-size: 20px;
+}
+
+.content-header{
+    text-align: center;
+}
+.content-isi-header{
+    text-align: center;
+}
+
+
+
+
+
+</style>
+
+<body>
+
+    <div class="header">
+
+        <li><a href="index.html">Home</a></li>
+        <li><a href="biodata.html">Biodata</a></li>
+        <li style="float:right"><a class="active" href="https://www.instagram.com/antareswilar_/">Contact</a></li>
+    
+    </div>
+
+        
+
+        <div class="content">
+
+            <div class="content-header">
+                <h1>Biodata</h1>
+            </div>
+
+            <div class="content-isi">
+
+                <div>NAMA : ANTARES MARIO ALEXANDRO WILAR </div>
+                <div>TANGGAL LAHIR : 21 JULI 2002</div>
+                <div>ALAMAT : TUMINTING</div>
+                <div>AGAMA : KRISTEN PROTESTAN</div>
+                <div>HOBI : BERMAIN FUTSAL DAN VOLI</div>
+
+                <hr color="black">
+                
+                <div class="content-isi-header">
+                    <h1>Pendidikan</h1>
+                </div>
+
+                <div class="content-isi2">
+                    <div>SD : SD TRIDHARMA MANADO</div>
+                    <div>SMP : SMP GARUDA MANADO</div>
+                    <div>SMA : SMA KRISTEN EBEN HAEZAR MANADO</div>
+                </div>
+
+            </div>
+
+        </div>
+
+       
+
+        
+        <div class="tabel">
+            <hr color="black">
+            <table cellpadding="15">
+                <tr>
+                    <td style="vertical-align: top;">
+                        <h2>Hubungi Saya</h2>
+                    </td>
+                    <td>
+                        <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" />
+             <br />
+        
+                <label for="email">Email</label>
+             <input type="text" id="email" name="email" />
+             <br />
+        
+                <textarea name="pesan" id="pesan" cols="28" rows="10" placeholder="ketik pesan anda disini"></textarea><br />
+        
+                <input type="button" value="Submit">
+                    </td>
+                </tr>
+                </table>
+        
+                
+            
+                <br />
+                <br />
+                <br />
+        </div>
+    
+</body>
+</html>
